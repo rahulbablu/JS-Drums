@@ -2,6 +2,7 @@ body {
     background: url(./images/background.jpg) center center fixed;
     background-size: cover;
     margin: 0;
+    font-family: 'Silkscreen', cursive;
 }
 
 .container{
@@ -13,12 +14,29 @@ body {
 }
 
 .key{
-    background-color: black;
+    background-color: rgba(0,0,0,.6);
     width: 90px;
     height: 90px;
     border-radius: 20px;
     color: white;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: solid 2px black;
+    font-size: 32px;
+}
+.name{
+   font-size: 13px; 
+   color: orange;
+}
+
+.key:hover{
+    border: 2px solid orange;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+}
+
+.key:active{
+    transform: scale(0.97);
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 8px;
 }
