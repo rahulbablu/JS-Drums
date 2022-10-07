@@ -1,0 +1,24 @@
+body {
+    background: url(./images/background.jpg) center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 80px;
+    height: 100vh;
+}
+
+.key{
+    background-color: black;
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
