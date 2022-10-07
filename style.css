@@ -5,6 +5,10 @@ body {
     font-family: 'Silkscreen', cursive;
 }
 
+kbd{
+    font-family: 'Silkscreen', cursive;
+}
+
 .container{
     display: flex;
     justify-content: space-around;
